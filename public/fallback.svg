@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0B0F" />
+      <stop offset="50%" stop-color="#16161F" />
+      <stop offset="100%" stop-color="#0B0B0F" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FB923C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="80" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="4 4" fill="none"/>
+  <!-- Mountain Silhouette -->
+  <path d="M 260 360 L 370 220 L 450 310 L 530 210 L 620 360 Z" fill="#1C1C26" stroke="#2D2D3D" stroke-width="2"/>
+  <path d="M 330 360 L 400 270 L 480 360 Z" fill="#242432" stroke="#37374A" stroke-width="1.5"/>
+  <circle cx="480" cy="190" r="14" fill="url(#accent)" filter="drop-shadow(0 0 10px rgba(245, 158, 11, 0.6))"/>
+  <text x="400" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#F5F5F4" letter-spacing="1">ANKIT ESCAPES</text>
+  <text x="400" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#A8A29E">Capturing the Journey</text>
+</svg>
